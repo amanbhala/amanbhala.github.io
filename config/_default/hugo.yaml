@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Aman Bhala Website
+title: Hugo Academic CV Theme
 # Website URL
 baseURL: 'https://example.com/'
 
@@ -38,10 +38,10 @@ outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
+  resampleFilter: Lanczos
   quality: 80
-  anchor: smart
-timeout: 600000
+  anchor: Smart
+timeout: 600000s
 taxonomies:
   author: authors
   tag: tags
